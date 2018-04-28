@@ -4,6 +4,6 @@ ROOT_PATH=$(dirname $BASH_SOURCE);
 
 alias tar-all='for file in *.tgz; do tar -zxf $file; done';
 
-## zip && unzip
-alias tar-gz="tar zcf $1.tar.gz $1";
+## tar gz/ugz
+alias tar-gz="${ROOT_PATH}/tar-gz.sh";
 alias tar-ugz='tar *.tar.gz';
