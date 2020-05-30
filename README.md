@@ -1,6 +1,7 @@
 # ushell-module-tar
-Unix like shell module for tar.
+> Unix like shell module for tar.
 
-## resources:
-
-## commands:
+## installation
+```shell
+npm i -S @feizheng/ushell-module-tar
+```
