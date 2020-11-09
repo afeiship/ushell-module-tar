@@ -1,5 +1,5 @@
 {
-  "name": "@feizheng/ushell-module-tar",
+  "name": "@jswork/ushell-module-tar",
   "version": "1.0.0",
   "description": "Unix like shell module for tar.",
   "main": "index.sh",
@@ -8,11 +8,14 @@
     "url": "git+https://github.com/afeiship/ushell-module-tar.git"
   },
   "keywords": [
-    "ushell",
     "unix",
     "shell",
-    "system",
-    "infomation"
+    "module",
+    "tar",
+    "cli",
+    "bash",
+    "command",
+    "alias"
   ],
   "author": "afei",
   "license": "MIT",
