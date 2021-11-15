@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-
-tar zxf $1.tar.gz
+filename=$(echo -n "$1" | sed 's/\///')
+tar zxf $filename.tar.gz
