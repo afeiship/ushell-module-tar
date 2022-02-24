@@ -1,6 +1,6 @@
 {
   "name": "@jswork/ushell-module-tar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Unix like shell module for tar.",
   "main": "index.sh",
   "repository": {
