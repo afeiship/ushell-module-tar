@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 filename=$(echo -n "$1" | sed 's/\///')
-tar zxf $filename.tar.gz
+
+if [[ $filename == *"gz"* ]]; then
+  tar zxf $filename
+else
+  tar zxf $filename.tar.gz
+fi
