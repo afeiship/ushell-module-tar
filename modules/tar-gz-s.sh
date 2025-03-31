@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+if [ -z "$1" ]; then
+    echo "Error: Filename is required as the first argument"
+    echo "Usage: $0 <filename> [prefix] [suffix]"
+    exit 1
+fi
+
 filename=$(echo -n "$1" | sed 's/\///')
 prefix="${2:-}"
 suffix="${3:-}"
