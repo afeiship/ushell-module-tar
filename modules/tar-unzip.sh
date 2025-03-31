@@ -9,7 +9,7 @@ fi
 filename=$(echo -n "$1" | sed 's/\///')
 
 if [[ $filename == *".zip"* ]]; then
-    unzip "$filename"
+    unzip -q "$filename" > /dev/null 2>&1
 else
-    unzip "${filename}.zip"
+    unzip -q "${filename}.zip" > /dev/null 2>&1
 fi

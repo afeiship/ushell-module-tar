@@ -18,4 +18,4 @@ if [ -n "$suffix" ]; then
     filename="${filename}_${suffix}"
 fi
 
-zip -r "${filename}_$(date +"%Y%m%d_%H%M%S").zip" "$1"
+zip -rq "${filename}_$(date +"%Y%m%d_%H%M%S").zip" "$1" > /dev/null 2>&1

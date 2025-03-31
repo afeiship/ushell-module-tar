@@ -7,4 +7,4 @@ if [ -z "$1" ]; then
 fi
 
 filename=$(echo -n "$1" | sed 's/\///')
-zip -r "${filename}.zip" "$filename"
+zip -rq "${filename}.zip" "$filename" > /dev/null 2>&1
