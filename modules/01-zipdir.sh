@@ -18,7 +18,7 @@ tzd() {
     # 进入目录并打包，使用 basename 获取目录名用于 zip 文件
     local dirname=$(basename "$dir")
     (
-        cd "$dir" && zip -r "../${dirname}.zip" .
+        cd "$dir" && zip -rq "../${dirname}.zip" .
     )
     
     if [ $? -eq 0 ]; then
